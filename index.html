@@ -21,7 +21,7 @@
             <div class="header__content container">
                 <div class="header__logo">
                     <a href="##">
-                        <img src="img/LOGO.svg" alt="Логотип" height="30px">
+                        <img src="./img/LOGO.svg" alt="Логотип" height="30px">
                     </a>
                 </div>
                 <nav class="header__menu">
@@ -57,23 +57,23 @@
                     <div class="hello__edge">
                         <ul class="hello__list">
                             <li>
-                                <img src="/img/big-data.svg" alt="Облачное хранилище">
+                                <img src="./img/big-data.svg" alt="Облачное хранилище">
                                 <p>Электронное облачное хранилище документов</p>
                             </li>
                             <li>
-                                <img src="/img/search.svg" alt="Поиск">
+                                <img src="./img/search.svg" alt="Поиск">
                                 <p>Полнотекстовый поиск документов</p>
                             </li>
                             <li>
-                                <img src="/img/files.svg" alt="Файлы">
+                                <img src="./img/files.svg" alt="Файлы">
                                 <p>Создание и ведение электронного архива</p>
                             </li>
                             <li>
-                                <img src="/img/enterprise.svg" alt="Предприятие">
+                                <img src="./img/enterprise.svg" alt="Предприятие">
                                 <p>Управление контентом предприятия</p>
                             </li>
                             <li>
-                                <img src="/img/doc.svg" alt="Документы">
+                                <img src="./img/doc.svg" alt="Документы">
                                 <p>Совместная работа с документами Word и Excel онлайн</p>
                             </li>
                         </ul>
@@ -81,19 +81,21 @@
                 </div>
             </section>
             <section class="search">
-                <div class="search__content container">
-                    <div class="line"></div>
-                    <h2 class="search__title title"><b>Интеллектуальный поиск</b> с быстрой и удобной навигацией по документу.</h2>
-                    <p class="search__text">Поисковая система PoshukAI позволит вам находить необходимую актуальную информацию компании.</p>
-                    <p class="search__text">Поисковое значение в комбинации с уточняющими фильтрами поможет точнее найти необходимые документы.</p>
-                    <p>Поддерживаемые форматы документов:</p>
-                    <ul class="search__list">
-                        <li>DOC (DOCX)</li>
-                        <li>PDF</li>
-                        <li>DJVU</li>
-                        <li>ODT</li>
-                        <li>XLS (XLSX)</li>
-                    </ul>
+                <div class="container">
+                    <div class="search__content">
+                        <div class="line"></div>
+                        <h2 class="search__title title"><b>Интеллектуальный поиск</b> с быстрой и удобной навигацией по документу.</h2>
+                        <p class="search__text">Поисковая система PoshukAI позволит вам находить необходимую актуальную информацию компании.</p>
+                        <p class="search__text">Поисковое значение в комбинации с уточняющими фильтрами поможет точнее найти необходимые документы.</p>
+                        <p>Поддерживаемые форматы документов:</p>
+                        <ul class="search__list">
+                            <li>DOC (DOCX)</li>
+                            <li>PDF</li>
+                            <li>DJVU</li>
+                            <li>ODT</li>
+                            <li>XLS (XLSX)</li>
+                        </ul>
+                    </div>
                 </div>
             </section>
             <section class="information">
@@ -122,33 +124,154 @@
                     </div>
                 </div>
             </section>
-            <!-- <section class="management">
-                <div class="management__content container">
-                    <div class="lines">
-                        <div class="line-2"></div>
-                        <div class="line-2-reverse"></div>
-                    </div>
-                    <h2 class="management__title">Легко управлять и поддерживать.</h2>
-                    <p class="management__text">В состав системы входит специальный веб-интерфейс администратора. С его помощью вы можете управлять работой системы поиска и отдельных ее функций, редактировать документы и настраивать права пользователей.</p>
-                    <div class="management__points">
-                        <div class="point">
-                            <p class="numbers">01</p>
-                            <div class="point__text">
-                                <h3 class="point__title">Управление cправочниками</h3>
-                                <p>Вы можете создавать справочники по виду, статусу и органу принятия документа.</p>
-                            </div>
+            <section class="management">
+                <div class="container">
+                    <div class="management__content">
+                        <div class="lines">
+                            <div class="line-2"></div>
+                            <div class="line-2-reverse"></div>
                         </div>
-                        <div class="point">
-                            <p class="numbers">02</p>
-                            <div class="point__text">
-                                <h3 class="point__title">Управление правами</h3>
-                                <p>Полноценная система управление пользователями с назначением им права доступа в системе поиска через подписки. Также возможен импорт учетных записей пользователей и групп из службы каталогов (LDAP/Active Directory).</p>
+                        <h2 class="management__title">Легко управлять и поддерживать.</h2>
+                        <p class="management__text">В состав системы входит специальный веб-интерфейс администратора. С его помощью вы можете управлять работой системы поиска и отдельных ее функций, редактировать документы и настраивать права пользователей.</p>
+                        <div class="management__points">
+                            <div class="point">
+                                <p class="numbers">01</p>
+                                <div class="point__text">
+                                    <h3 class="point__title">Управление cправочниками</h3>
+                                    <p>Вы можете создавать справочники по виду, статусу и органу принятия документа.</p>
+                                </div>
+                            </div>
+                            <div class="point">
+                                <p class="numbers">02</p>
+                                <div class="point__text">
+                                    <h3 class="point__title">Управление правами</h3>
+                                    <p>Полноценная система управление пользователями с назначением им права доступа в системе поиска через подписки. Также возможен импорт учетных записей пользователей и групп из службы каталогов (LDAP/Active Directory).</p>
+                                </div>
+                            </div>
+                            <div class="point">
+                                <p class="numbers">03</p>
+                                <div class="point__text">
+                                    <h3 class="point__title">Конфигурирование алгоритма расчета релевантности поиска</h3>
+                                    <p>Вы можете настраивать степень соответствия найденного документа под ваши цели.</p>
+                                </div>
+                            </div>
+                            <div class="point">
+                                <p class="numbers">04</p>
+                                <div class="point__text">
+                                    <h3 class="point__title">Генератор ключевых слов с использованием тематических словарей</h3>
+                                    <p>Используйте этот инструмент для формирования метаинформации документа. С тематическими словарями подбор ключевых слов будет выполнен наиболее точно.</p>
+                                </div>
+                            </div>
+                            <div class="point">
+                                <p class="numbers">05</p>
+                                <div class="point__text">
+                                    <h3 class="point__title">Редактор документов</h3>
+                                    <p>Используйте встроенный редактор документов для насыщения текста документа ссылками, синонимами, сокращениями, часто используемыми сотрудниками в своей практике.</p>
+                                </div>
+                            </div>
+                            <div class="point">
+                                <p class="numbers">06</p>
+                                <div class="point__text">
+                                    <h3 class="point__title">Менеджер загрузок и Журнал событий</h3>
+                                    <p>Отслеживайте процесс загрузки поступающих документов и следите за событиями в системе.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section> -->
+            </section>
+            <section class="questions">
+                <div class="questions__content container">
+                    <h2 class="questions__title">остались вопросы? Ответим.</h2>
+                    <div class="questions__block">
+                        <form action="##" method="POST" class="form">
+                            <div>
+                                <input type="text" name="user_name" placeholder="Имя, фамилия" class="form__item" />
+                            </div>
+                            <div>
+                                <input type="tel" name="user_telephone" placeholder="Телефон" class="form__item" />
+                            </div>
+                            <div>
+                                <input type="email" name="user_email" placeholder="E-mail" class="form__item" />
+                            </div>
+                            <div>
+                                <textarea name="user_question" class="form__question"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" class="form__button">Отправить сообщение</button>
+                            </div>
+                            <div class="form__checkbox">
+                                <input type="checkbox" name="user__consent" checked />
+                                <p>Даю согласие на <a href="##" class="form__checkbox__link"> обработку персональных данных</a></p>
+                            </div>
+                        </form>
+                        <div class="contacts">
+                            <div class="contacts__content">
+                                <div class="contacts__item">
+                                    <img src="./img/placeholder.svg" alt="Метка на карте">
+                                    <a href="https://goo.gl/maps/oQc3fPJr39fvHe8bA" target="_blank" class="contacts__text">Беларусь, г. Минск, пер. Ломоносова 5</a>
+                                </div>
+                                <div class="contacts__item">
+                                    <img src="./img/call.svg" alt="Телефон">
+                                    <div>
+                                        <a href="tel:+375296584657" class="contacts__text">+375 (29) 658-46-57</a>,
+                                        <a href="tel:+375296389267" class="contacts__text">+375 (29) 638-92-67</a>
+                                    </div>
+                                </div>
+                                <div class="contacts__item">
+                                    <img src="./img/internet.svg" alt="Интернет">
+                                    <a href="https://www.belhard.com/ru" target="_blank" class="contacts__text">www.belhard.com/ru</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
+        <footer class="footer">
+            <div class="footer__content container">
+                <div class="footer__logo">
+                    <a href="##">
+                        <img src="./img/LOGO-footer.svg" alt="Логотип" height="36px">
+                    </a>
+                </div>
+                <div class="footer__info">
+                    <nav class="footer__menu">
+                        <ul class="footer__menu__list">
+                            <li>
+                                <a href="##">Облако для бизнеса</a>
+                            </li>
+                            <li>
+                                <a href="##">Поиск документов</a>
+                            </li>
+                            <li>
+                                <a href="##">Электронный архив</a>
+                            </li>
+                            <li>
+                                <a href="##">Управление корпоративным контентом</a>
+                            </li>
+                            <li>
+                                <a href="##">Совместная работа с документами</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="footer__line"></div>
+                    <div class="footer__submenu">
+                        <ul class="footer__submenu__list">
+                            <li>
+                                <a href="##">Все права защищены | © Группа компаний «БелХард» 1994-2021</a>
+                            </li>
+                            <li>
+                                <a href="##">Политика в отношении обработки персональных данных</a>
+                            </li>
+                            <li>
+                                <a href="##">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 
